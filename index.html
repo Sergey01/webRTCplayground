@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>webRTC testbed</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <div id="videocontainer">
+        <span id="vidWindow1">
+            <h3>Vid 1</h3>
+            <video id="vid1" autoplay="true" playsinline="true"></video>
+            <button id="startLocalVideoButton">Start Local Video</button>
+            <button id="stopLocalVideoButton" disabled>Stop Local Video</button>
+        </span>
+        <span id="vidWindow2">
+            <h3>Vid 2</h3>
+            <video id="vid2" autoplay playsinline></video>
+            <button id="screenCaptureButton">Capture Screen</button>
+        </span>
+    </div>
+</body>
+
+</html>
